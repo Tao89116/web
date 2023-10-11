@@ -1,0 +1,63 @@
+<b></b>bold粗體
+<i></i>italic斜體
+<sup></sup> superscript 1"st"
+"<sub></sub> subscript CO"2"
+<br> line break換行
+<hr> thematic break-horizontal line
+
+<style> strong{
+	font-weight: bold;
+	font-size: large;
+	font-style: italic;
+}
+</style> 改變strong,em的style
+<strong></strong> 預設"粗體"
+<em></em>emphasis 預設"斜體"
+
+<abbr title="NASA">National... </abbr>縮寫
+<cite></cite> 預設italic
+<dfn></dfn> 預設italic
+<dfn title=" "></dfn>
+
+<address>
+<p><a href="email">email</a></p>
+</address>
+"a" tag defines hyperlink
+<del></del>刪除符號
+<ins></ins>插入符號(預設底線
+<div></div> division > modify the style 預設垂直
+<ul>unsorted list ...
+<li>list
+<ol>order list 1.2.3.
+type=" "->ol的類型
+start="num" ->ol開始的數字
+ul-> style="list-style-type: ;"
+description list <dl></dl> 描述物品、解釋物件
+<dt>主詞
+<dd>解釋
+<dl><dt><dd>
+overflow字串超過格子時設定是否顯示/隱藏/scroll
+text-decoration-line/colr/style drfine the style of text :line->從中間/底下/螢光
+color線的顏色
+style線的類型:波浪/dash...
+thickness厚度
+
+img inside a paragrapgh
+allign left/right ->horizontal allign
+vallign-vertical allign文字對齊在圖片的...
+<figure>
+<img>
+<figcaption>
+
+opacity control the transparency 1:completely visible
+.class2
+{
+opacity:0
+}
+.(class1):hover .(class2){
+opacity:1;
+}->opacity changed from 0->1
+
+transform: translate() control the position according to itself改變重心
+transition: 1.5s ease; control the time the transition happen
+

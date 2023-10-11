@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1.5px solid black;
+  text-align: center;
+  height: 100px;
+}
+th {
+background-color: blue;
+color: white;
+}
+.lab {
+    background-color: green;
+    color: white;
+}
+.white {
+    background-color: wheat;
+}
+
+</style>
+<body>
+
+<h2>A basic HTML table</h2>
+
+<table style="width:100%" >
+  <tr>
+    <th colspan="6">Table Title</th>
+  </tr>
+  <tr style="background-color: wheat;">
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+  </tr>
+  <tr class="lab">
+    <td colspan="3">7</td>
+    <td colspan="3">8</td>
+  </tr>
+  <tr class="white">
+    <td rowspan="2" class="lab">9</td>
+    <td>10</td>
+    <td rowspan="2" class="lab">11</td>
+    <td>12</td>
+    <td rowspan="2" class="lab">13</td>
+    <td>14</td>
+  </tr>
+  <tr class="white">
+    <td>15</td>
+    <td>16</td>
+    <td>17</td>
+  </tr>
+  <tr class="white">
+    <td>18</td>
+    <td>19</td>
+    <td>20</td>
+    <td>21</td>
+    <td>22</td>
+    <td>23</td>
+  </tr>
+  <tr class="white">
+    <td>24</td>
+    <td  class="lab" rowspan="3" colspan="4">25</td>
+    <td>25</td>
+  </tr>
+    <tr class="white">
+    <td>26</td>
+    <td>27</td> 
+    <tr class="white">
+        <td>28</td>
+        <td>29</td>
+    </tr>
+  </tr>
+  <tr>
+    <th colspan="6">table footnote</th>
+  </tr>
+</table>
+
+<p>To understand the example better, we have added borders to the table.</p>
+
+</body>
+</html>
